@@ -16,13 +16,13 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "disciplina")
 public class Disciplina {
     private String nome;
+    private Integer codigo;
 
-    public Disciplina() {
-    }
-    
+    public Disciplina() {}
 
-    public Disciplina(String nome) {
+    public Disciplina(String nome, Integer codigo) {
         this.nome = nome;
+        this.codigo = codigo;
     }
   
     
@@ -34,5 +34,13 @@ public class Disciplina {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+
+    @XmlElement(name="codigo")
+    public Integer getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(Integer codigo) {
+        this.codigo = codigo;
+    }
 }

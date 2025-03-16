@@ -5,15 +5,19 @@
         <disciplinas>
             <disciplina>
                 <nome>Sistemas Operacionais</nome>
+                <codigo>123</codigo>
             </disciplina>
             <disciplina>
                 <nome>Redes de computadores</nome>
+                <codigo>456</codigo>
             </disciplina>
             <disciplina>
                 <nome>Programacao OO</nome>
+                <codigo>789</codigo>
             </disciplina>
             <disciplina>
                 <nome>Java X</nome>
+                <codigo>101</codigo>
             </disciplina>
         </disciplinas>
     </aluno>
@@ -21,6 +25,7 @@
         <disciplinas>
             <disciplina>
                 <nome>Topicos em CC</nome>
+                <codigo>321</codigo>
             </disciplina>
         </disciplinas>
     </aluno>
@@ -28,18 +33,23 @@
         <disciplinas>
             <disciplina>
                 <nome>Processo de Sw</nome>
+                <codigo>222</codigo>
             </disciplina>
             <disciplina>
                 <nome>Qualidade de Sw</nome>
+                <codigo>333</codigo>
             </disciplina>
             <disciplina>
                 <nome>Redes de computadores</nome>
+                <codigo>456</codigo>
             </disciplina>
             <disciplina>
                 <nome>Algoritmos</nome>
+                <codigo>555</codigo>
             </disciplina>
             <disciplina>
                 <nome>Estrutura de dados</nome>
+                <codigo>666</codigo>
             </disciplina>
         </disciplinas>
     </aluno>
@@ -47,15 +57,19 @@
         <disciplinas>
             <disciplina>
                 <nome>Banco de dados 1</nome>
+                <codigo>777</codigo>
             </disciplina>
             <disciplina>
                 <nome>Banco de dados 2</nome>
+                <codigo>888</codigo>
             </disciplina>
             <disciplina>
                 <nome>Analise de algoritmos</nome>
+                <codigo>999</codigo>
             </disciplina>
             <disciplina>
                 <nome>Teoria da computacao</nome>
+                <codigo>000</codigo>
             </disciplina>
         </disciplinas>
     </aluno>

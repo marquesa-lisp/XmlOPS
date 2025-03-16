@@ -65,7 +65,7 @@ public class Aluno implements Serializable{
         this.id = id;
     }
 
-    @XmlAttribute
+    @XmlAttribute(required = true)
     public String getRa() {
         return ra;
     }

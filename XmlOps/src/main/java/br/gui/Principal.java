@@ -292,7 +292,7 @@ public class Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
         ArrayList<Disciplina> ld = new ArrayList();
         for (int i = 0; i < Integer.parseInt(jSpinner1.getValue().toString()); i++) {
-            ld.add(new Disciplina(new Util().randomName()));
+            ld.add(new Disciplina(new Util().randomName(), new Util().randomCodigo()));
         }
         int id = Integer.parseInt(jTextField1.getText());
         if (ld.isEmpty()) {

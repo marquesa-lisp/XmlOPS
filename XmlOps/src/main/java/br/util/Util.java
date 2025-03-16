@@ -45,4 +45,8 @@ public class Util {
         return builder.toString();
     }
 
+    public Integer randomCodigo() {
+        return rand.nextInt(1000);
+    }
+
 }
